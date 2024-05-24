@@ -12,5 +12,5 @@ export default async function Users(){
                 return <UserCard key={user.id} {...user} />;
             })}
         </div>
-    );
+    );  
 }
